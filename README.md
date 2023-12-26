@@ -11,3 +11,7 @@ pnpm i
 pnpm dev
 ```
 
+## Adding Assets
+
+To add a new asset, places the file in the public folder. Ideally, add a matching subdirectory for the version of the changelog you're working on.
+To reference this asset, use "/" to refer to the `public` folder. i.e. `/v0.1.2/image.png` refers to `public/v0.1.2/image.png` when built.
