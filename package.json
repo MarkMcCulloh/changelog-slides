@@ -1,0 +1,21 @@
+{
+  "name": "changelog",
+  "private": true,
+  "type": "module",
+  "module": "esnext",
+  "scripts": {
+    "build": "slidev build slides/latest.md",
+    "dev": "slidev --open slides/latest.md",
+    "export": "slidev export --dark --output changelog.pdf --per-slide -c --format pdf slides/latest.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.42.1",
+    "@slidev/theme-default": "0.21.2",
+    "@slidev/theme-seriph": "0.21.3",
+    "vue-chartjs": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "playwright-chromium": "^1.37.1"
+  }
+}
